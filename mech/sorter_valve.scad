@@ -1,10 +1,10 @@
 //Engine mount
 
 //change these to modify
-p_rad=5; 			//pin radius
-b_rad=15; 		//ball radius 
-hole=16.9/2; 		   //hole diam
-res=200; 			//hole resolution
+p_rad=5;			//pin radius
+b_rad=15;			//ball radius 
+hole=16.9/2;		//hole diam
+res=200;			//hole resolution
 angle=25;			//Angle between exits
 
 h_rad=b_rad+((b_rad*cos(angle))/tan(angle));
