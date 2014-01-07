@@ -2,10 +2,10 @@
 
 //change these to modify
 p_rad=5;			//pin radius
-b_rad=15;			//ball radius 
+b_rad=20;			//ball radius 
 hole=16.9/2;		//hole diam
 res=200;			//hole resolution
-angle=25;			//Angle between exits
+angle=20;			//Angle between exits
 
 h_rad=b_rad+((b_rad*cos(angle))/tan(angle));
 p_len=(b_rad*2)+10+2;
